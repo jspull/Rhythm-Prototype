@@ -19,7 +19,7 @@ MonoBehaviour:
       expandSoundContainers: 1
       expandTimeline: 1
       expandPreview: 0
-      expandAllSoundTag: 0
+      expandAllSoundTag: 1
       timelineSoundContainerData:
       - delay: 0
         volumeRatio: 1
@@ -244,8 +244,7 @@ MonoBehaviour:
           bypassReverbZonesUse: 0
           bypassVoiceEffectsUse: 0
           bypassListenerEffectsUse: 0
-        soundEvent:
-        - {fileID: 0}
+        soundEvent: []
     soundContainers:
     - {fileID: 11400000, guid: dd0286b526540b84285a81ba344cb295, type: 2}
   assetGuid: d7555322676ebc14facade069215208c

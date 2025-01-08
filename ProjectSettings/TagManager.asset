@@ -7,6 +7,7 @@ TagManager:
   - Note
   - LineArea
   - Trigger
+  - Note Long
   layers:
   - Default
   - TransparentFX
