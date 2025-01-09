@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4e444e5f947e2a7409a1eaa10f9fa16e, type: 3}
-  m_Name: SCS_Touch
+  m_Name: SCS_Note_Swife
   m_EditorClassIdentifier: 
   internals:
     data:
@@ -650,7 +650,7 @@ MonoBehaviour:
         m_PostInfinity: 2
         m_RotationOrder: 4
     audioClips:
-    - {fileID: 8300000, guid: d0e8bc0b5f96bfd4385d882951a715f2, type: 3}
+    - {fileID: 8300000, guid: 93c1d50380ed54b4ba6267337ca27955, type: 3}
     notes: Notes
-  assetGuid: dd0286b526540b84285a81ba344cb295
-  assetGuidHash: -4726591865308384851
+  assetGuid: ed13be1b71b29c04894bc3f231ea5b89
+  assetGuidHash: 7923984005153551947

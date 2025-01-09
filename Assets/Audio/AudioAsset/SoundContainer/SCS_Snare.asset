@@ -21,7 +21,7 @@ MonoBehaviour:
       previewCurves: 1
       audioMixerGroup: {fileID: 0}
       settingsExpandBase: 1
-      settingsExpandAdvanced: 0
+      settingsExpandAdvanced: 1
       priority: 0.5
       distanceEnabled: 0
       distanceScale: 100
@@ -166,7 +166,7 @@ MonoBehaviour:
       pitchExpand: 0
       pitchSemitone: 0
       pitchRatio: 1
-      pitchRandomEnable: 1
+      pitchRandomEnable: 0
       pitchRandomRangeSemitoneBipolar: 0.25
       pitchIntensityEnable: 0
       pitchIntensityLowSemitone: -12
