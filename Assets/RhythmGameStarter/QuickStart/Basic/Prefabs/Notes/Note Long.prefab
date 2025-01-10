@@ -190,13 +190,18 @@ PrefabInstance:
     - target: {fileID: 8397699897526961635, guid: a8bbe05f24310734da5700943f3421a9,
         type: 3}
       propertyPath: m_TagString
-      value: Note Long
+      value: Note
       objectReference: {fileID: 0}
     - target: {fileID: 8397699897526961636, guid: a8bbe05f24310734da5700943f3421a9,
         type: 3}
       propertyPath: action
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8397699897526961636, guid: a8bbe05f24310734da5700943f3421a9,
+        type: 3}
+      propertyPath: hitSound
+      value: 
+      objectReference: {fileID: 8300000, guid: c40d2ea524e796741bb8e8de80104563, type: 3}
     - target: {fileID: 8397699897526961636, guid: a8bbe05f24310734da5700943f3421a9,
         type: 3}
       propertyPath: noTapEffect
