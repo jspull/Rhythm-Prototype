@@ -1768,19 +1768,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8c2da81411039c04882bdf469468ce62, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  randomColors:
-  - name: Red
-    color: {r: 1, g: 0.6509804, b: 0.61960787, a: 1}
-    uiDisplay: {fileID: 1337565494}
-  - name: Yellow
-    color: {r: 0.9803922, g: 0.95294124, b: 0.86666673, a: 1}
-    uiDisplay: {fileID: 423857985}
-  - name: Green
-    color: {r: 0.72156864, g: 0.9490197, b: 0.90196085, a: 1}
-    uiDisplay: {fileID: 1041538220}
-  - name: Blue
-    color: {r: 0.68235296, g: 0.85098046, b: 0.87843144, a: 1}
-    uiDisplay: {fileID: 857030030}
+  randomColors: []
 --- !u!1 &666198108
 GameObject:
   m_ObjectHideFlags: 0
