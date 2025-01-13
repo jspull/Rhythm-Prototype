@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5b80e83c0feb1444db6d74f0748b6ec9, type: 3}
-  m_Name: SES_Note_Swipe
+  m_Name: SES_Rolling_Note
   m_EditorClassIdentifier: 
   internals:
     notes: Notes
@@ -19,7 +19,7 @@ MonoBehaviour:
       expandSoundContainers: 1
       expandTimeline: 1
       expandPreview: 0
-      expandAllSoundTag: 1
+      expandAllSoundTag: 0
       timelineSoundContainerData:
       - delay: 0
         volumeRatio: 1
@@ -94,7 +94,7 @@ MonoBehaviour:
       soundMix: {fileID: 0}
       soundPolyGroup: {fileID: 0}
       soundPolyGroupPriority: 1
-      cooldownTime: 0.05
+      cooldownTime: 0
       probability: 100
       passParameters: 1
       ignoreLocalPause: 0
@@ -246,6 +246,6 @@ MonoBehaviour:
           bypassListenerEffectsUse: 0
         soundEvent: []
     soundContainers:
-    - {fileID: 11400000, guid: ed13be1b71b29c04894bc3f231ea5b89, type: 2}
-  assetGuid: e6d7ec9a19a173048bbc961bba35f6b5
-  assetGuidHash: -626837423474312448
+    - {fileID: 11400000, guid: 19cc2692a573a0841a1fced19ac79937, type: 2}
+  assetGuid: 2a05d740d0ff3b74d9f20dad53c3a70d
+  assetGuidHash: 1718494782925885495

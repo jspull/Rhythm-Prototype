@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5b80e83c0feb1444db6d74f0748b6ec9, type: 3}
-  m_Name: SES_Note_Long
+  m_Name: SES_Rolling_Note_Swipe
   m_EditorClassIdentifier: 
   internals:
     notes: Notes
@@ -246,6 +246,6 @@ MonoBehaviour:
           bypassListenerEffectsUse: 0
         soundEvent: []
     soundContainers:
-    - {fileID: 11400000, guid: daa2bba3e22329545b99859243efb896, type: 2}
-  assetGuid: c2613a731ca1e434d8f27584515b4e25
-  assetGuidHash: -4645524618671936671
+    - {fileID: 11400000, guid: ed13be1b71b29c04894bc3f231ea5b89, type: 2}
+  assetGuid: e6d7ec9a19a173048bbc961bba35f6b5
+  assetGuidHash: -626837423474312448

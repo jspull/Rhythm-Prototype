@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4e444e5f947e2a7409a1eaa10f9fa16e, type: 3}
-  m_Name: SCS_Note_Long
+  m_Name: SCS_Rolling_Note
   m_EditorClassIdentifier: 
   internals:
     data:
@@ -26,7 +26,7 @@ MonoBehaviour:
       distanceEnabled: 0
       distanceScale: 100
       preventEndClicks: 1
-      loopEnabled: 1
+      loopEnabled: 0
       followPosition: 0
       stopIfTransformIsNull: 0
       randomStartPosition: 0
@@ -650,7 +650,7 @@ MonoBehaviour:
         m_PostInfinity: 2
         m_RotationOrder: 4
     audioClips:
-    - {fileID: 8300000, guid: c40d2ea524e796741bb8e8de80104563, type: 3}
+    - {fileID: 8300000, guid: b972f831a359783428818032d50b7cc2, type: 3}
     notes: Notes
-  assetGuid: daa2bba3e22329545b99859243efb896
-  assetGuidHash: -9130537514793997151
+  assetGuid: 19cc2692a573a0841a1fced19ac79937
+  assetGuidHash: 3494893660247222055
