@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcc7143b8421ffa4c8482bcce31d9f98, type: 3}
+  m_Name: Prototype_Rolling_Maping
+  m_EditorClassIdentifier: 
+  referenceRootOctave: 3
+  ignoreOctave: 0
+  ignoreName: 1
+  notesPrefab:
+  - prefab: {fileID: 8397699897526961635, guid: 2e0269c256e904249b4b8eb6f2d5b202,
+      type: 3}
+    poolSize: 20
+  - prefab: {fileID: 1528742009364248792, guid: 10a5aaace5f6aa04ab8cf63e571e2d35,
+      type: 3}
+    poolSize: 6
+  - prefab: {fileID: 7212494586997379943, guid: b81ba2e205afb004cae6f5fbe0059cc7,
+      type: 3}
+    poolSize: 6
+  - prefab: {fileID: 7212494586997379943, guid: ab36d42317c613c40bae80bd705fd8e5,
+      type: 3}
+    poolSize: 6
+  mapping:
+  - notePrefabIndex: 1
+    noteName: 0
+    noteOctave: 4
+  - notePrefabIndex: 3
+    noteName: 0
+    noteOctave: 5
+  - notePrefabIndex: 2
+    noteName: 0
+    noteOctave: 6
