@@ -203,8 +203,8 @@ MonoBehaviour:
     type: 3}
   songItems:
     values:
-    - {fileID: 11400000, guid: 52077f020e20a7147bdeea600750293e, type: 2}
     - {fileID: 11400000, guid: 9fc4c0a8e6619a540bc0d7de971d3df7, type: 2}
+    - {fileID: 11400000, guid: 52077f020e20a7147bdeea600750293e, type: 2}
     - {fileID: 11400000, guid: 55e75ed5e7f253b4080948c6dba8ad8b, type: 2}
     - {fileID: 11400000, guid: 504a620ec0a1cd54d8f9dea264ef69fa, type: 2}
   onItemSelect:
@@ -1328,9 +1328,9 @@ RectTransform:
   - {fileID: 514139510}
   m_Father: {fileID: 819641928}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 50, y: -14}
   m_SizeDelta: {x: 28, y: 28}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &423857987
@@ -1581,12 +1581,6 @@ MonoBehaviour:
   onHide:
     m_PersistentCalls:
       m_Calls: []
---- !u!4 &592509696 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 5579768259981768397, guid: c4326a676d37e3e4182c12085a59b291,
-    type: 3}
-  m_PrefabInstance: {fileID: 1074692787}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &601541510
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2034,12 +2028,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 678556813}
   m_CullTransparentMesh: 0
---- !u!4 &701316256 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 5579768259981768397, guid: c4326a676d37e3e4182c12085a59b291,
-    type: 3}
-  m_PrefabInstance: {fileID: 2067776025}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &724064899
 GameObject:
   m_ObjectHideFlags: 0
@@ -2241,11 +2229,6 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3114070848011914927, guid: c4326a676d37e3e4182c12085a59b291,
         type: 3}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3114070848011914927, guid: c4326a676d37e3e4182c12085a59b291,
-        type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.74
       objectReference: {fileID: 0}
@@ -2294,11 +2277,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5044912443828389941, guid: c4326a676d37e3e4182c12085a59b291,
-        type: 3}
-      propertyPath: m_Materials.Array.size
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7456631888709361061, guid: c4326a676d37e3e4182c12085a59b291,
         type: 3}
       propertyPath: m_Name
@@ -2306,11 +2284,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects:
-    - targetCorrespondingSourceObject: {fileID: 5579768259981768397, guid: c4326a676d37e3e4182c12085a59b291,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1273679406}
+    m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c4326a676d37e3e4182c12085a59b291, type: 3}
 --- !u!4 &783235356 stripped
@@ -2455,290 +2429,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 792634178}
   m_CullTransparentMesh: 0
---- !u!1 &800728359
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 800728360}
-  - component: {fileID: 800728361}
-  m_Layer: 0
-  m_Name: SND_Touch
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &800728360
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 800728359}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.6094487, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 592509696}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &800728361
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 800728359}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d65c3a80a1a35884b9a0bf632cd09354, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  internals:
-    soundEventsExpand: 1
-    soundTriggerPart:
-    - expandSoundEvent: 1
-      soundEvent: {fileID: 11400000, guid: d7555322676ebc14facade069215208c, type: 2}
-      soundEventModifier:
-        volumeDecibel: 0
-        volumeRatio: 1
-        pitchSemitone: 0
-        pitchRatio: 1
-        delay: 0
-        increase2D: 0
-        intensity: 1
-        reverbZoneMixDecibel: 0
-        reverbZoneMixRatio: 1
-        startPosition: 0
-        reverse: 0
-        stereoPan: 0
-        polyphony: 1
-        distanceScale: 1
-        distortionIncrease: 0
-        fadeInLength: 0
-        fadeInShape: 2
-        fadeOutLength: 0
-        fadeOutShape: -2
-        followPosition: 1
-        bypassReverbZones: 0
-        bypassVoiceEffects: 0
-        bypassListenerEffects: 0
-        volumeUse: 0
-        pitchUse: 0
-        delayUse: 0
-        increase2DUse: 0
-        intensityUse: 0
-        reverbZoneMixUse: 0
-        startPositionUse: 0
-        reverseUse: 0
-        stereoPanUse: 0
-        polyphonyUse: 0
-        distanceScaleUse: 0
-        distortionIncreaseUse: 0
-        fadeInLengthUse: 0
-        fadeInShapeUse: 0
-        fadeOutLengthUse: 0
-        fadeOutShapeUse: 0
-        followPositionUse: 0
-        bypassReverbZonesUse: 0
-        bypassVoiceEffectsUse: 0
-        bypassListenerEffectsUse: 0
-      expandModifier: 1
-      soundTriggerTodo:
-        onEnableUse: 1
-        onDisableUse: 0
-        onStartUse: 0
-        onDestroyUse: 0
-        onTriggerEnterUse: 0
-        onTriggerExitUse: 0
-        onTriggerEnter2DUse: 0
-        onTriggerExit2DUse: 0
-        onCollisionEnterUse: 0
-        onCollisionExitUse: 0
-        onCollisionEnter2DUse: 0
-        onCollisionExit2DUse: 0
-        onMouseEnterUse: 0
-        onMouseExitUse: 0
-        onMouseDownUse: 0
-        onMouseUpUse: 0
-        onEnableAction: 0
-        onDisableAction: 1
-        onStartAction: 0
-        onDestroyAction: 1
-        onTriggerEnterAction: 0
-        onTriggerExitAction: 1
-        onTriggerEnter2DAction: 0
-        onTriggerExit2DAction: 1
-        onCollisionEnterAction: 0
-        onCollisionExitAction: 1
-        onCollisionEnter2DAction: 0
-        onCollisionExit2DAction: 1
-        onMouseEnterAction: 0
-        onMouseExitAction: 1
-        onMouseDownAction: 0
-        onMouseUpAction: 1
-      expandTrigger: 1
-      triggerTagUse: 0
-      triggerTags:
-      - Untagged
-      collisionVelocityToIntensity: 0
-      collisionTagUse: 0
-      collisionTags:
-      - Untagged
-    soundParameterDistanceScale:
-      internals:
-        type: 10
-        updateMode: 1
-        valueFloat: 1
-        valueInt: 0
-        valueBool: 0
---- !u!1 &801530111
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 801530112}
-  - component: {fileID: 801530113}
-  m_Layer: 0
-  m_Name: SND_Touch
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &801530112
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 801530111}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1947870896}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &801530113
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 801530111}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d65c3a80a1a35884b9a0bf632cd09354, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  internals:
-    soundEventsExpand: 1
-    soundTriggerPart:
-    - expandSoundEvent: 1
-      soundEvent: {fileID: 11400000, guid: d7555322676ebc14facade069215208c, type: 2}
-      soundEventModifier:
-        volumeDecibel: 0
-        volumeRatio: 1
-        pitchSemitone: 0
-        pitchRatio: 1
-        delay: 0
-        increase2D: 0
-        intensity: 1
-        reverbZoneMixDecibel: 0
-        reverbZoneMixRatio: 1
-        startPosition: 0
-        reverse: 0
-        stereoPan: 0
-        polyphony: 1
-        distanceScale: 1
-        distortionIncrease: 0
-        fadeInLength: 0
-        fadeInShape: 2
-        fadeOutLength: 0
-        fadeOutShape: -2
-        followPosition: 1
-        bypassReverbZones: 0
-        bypassVoiceEffects: 0
-        bypassListenerEffects: 0
-        volumeUse: 0
-        pitchUse: 0
-        delayUse: 0
-        increase2DUse: 0
-        intensityUse: 0
-        reverbZoneMixUse: 0
-        startPositionUse: 0
-        reverseUse: 0
-        stereoPanUse: 0
-        polyphonyUse: 0
-        distanceScaleUse: 0
-        distortionIncreaseUse: 0
-        fadeInLengthUse: 0
-        fadeInShapeUse: 0
-        fadeOutLengthUse: 0
-        fadeOutShapeUse: 0
-        followPositionUse: 0
-        bypassReverbZonesUse: 0
-        bypassVoiceEffectsUse: 0
-        bypassListenerEffectsUse: 0
-      expandModifier: 1
-      soundTriggerTodo:
-        onEnableUse: 1
-        onDisableUse: 0
-        onStartUse: 0
-        onDestroyUse: 0
-        onTriggerEnterUse: 0
-        onTriggerExitUse: 0
-        onTriggerEnter2DUse: 0
-        onTriggerExit2DUse: 0
-        onCollisionEnterUse: 0
-        onCollisionExitUse: 0
-        onCollisionEnter2DUse: 0
-        onCollisionExit2DUse: 0
-        onMouseEnterUse: 0
-        onMouseExitUse: 0
-        onMouseDownUse: 0
-        onMouseUpUse: 0
-        onEnableAction: 0
-        onDisableAction: 1
-        onStartAction: 0
-        onDestroyAction: 1
-        onTriggerEnterAction: 0
-        onTriggerExitAction: 1
-        onTriggerEnter2DAction: 0
-        onTriggerExit2DAction: 1
-        onCollisionEnterAction: 0
-        onCollisionExitAction: 1
-        onCollisionEnter2DAction: 0
-        onCollisionExit2DAction: 1
-        onMouseEnterAction: 0
-        onMouseExitAction: 1
-        onMouseDownAction: 0
-        onMouseUpAction: 1
-      expandTrigger: 1
-      triggerTagUse: 0
-      triggerTags:
-      - Untagged
-      collisionVelocityToIntensity: 0
-      collisionTagUse: 0
-      collisionTags:
-      - Untagged
-    soundParameterDistanceScale:
-      internals:
-        type: 10
-        updateMode: 1
-        valueFloat: 1
-        valueInt: 0
-        valueBool: 0
 --- !u!1 &819641927
 GameObject:
   m_ObjectHideFlags: 0
@@ -2756,7 +2446,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &819641928
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2778,7 +2468,7 @@ RectTransform:
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: -32.099976, y: -36.599976}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 136, y: 28}
   m_Pivot: {x: 1, y: 1}
 --- !u!114 &819641929
 MonoBehaviour:
@@ -2988,9 +2678,9 @@ RectTransform:
   - {fileID: 1360629877}
   m_Father: {fileID: 819641928}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 122, y: -14}
   m_SizeDelta: {x: 28, y: 28}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &857030032
@@ -3751,9 +3441,9 @@ RectTransform:
   - {fileID: 1497208711}
   m_Father: {fileID: 819641928}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 86, y: -14}
   m_SizeDelta: {x: 28, y: 28}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1041538222
@@ -4238,11 +3928,6 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3114070848011914927, guid: c4326a676d37e3e4182c12085a59b291,
         type: 3}
-      propertyPath: m_RootOrder
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3114070848011914927, guid: c4326a676d37e3e4182c12085a59b291,
-        type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.76
       objectReference: {fileID: 0}
@@ -4291,11 +3976,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5044912443828389941, guid: c4326a676d37e3e4182c12085a59b291,
-        type: 3}
-      propertyPath: m_Materials.Array.size
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7456631888709361061, guid: c4326a676d37e3e4182c12085a59b291,
         type: 3}
       propertyPath: m_Name
@@ -4303,11 +3983,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects:
-    - targetCorrespondingSourceObject: {fileID: 5579768259981768397, guid: c4326a676d37e3e4182c12085a59b291,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 800728360}
+    m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c4326a676d37e3e4182c12085a59b291, type: 3}
 --- !u!4 &1074692788 stripped
@@ -5018,148 +4694,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!1 &1273679405
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1273679406}
-  - component: {fileID: 1273679407}
-  m_Layer: 0
-  m_Name: SND_Touch
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1273679406
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1273679405}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.8047243, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1666527825}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1273679407
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1273679405}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d65c3a80a1a35884b9a0bf632cd09354, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  internals:
-    soundEventsExpand: 1
-    soundTriggerPart:
-    - expandSoundEvent: 1
-      soundEvent: {fileID: 11400000, guid: d7555322676ebc14facade069215208c, type: 2}
-      soundEventModifier:
-        volumeDecibel: 0
-        volumeRatio: 1
-        pitchSemitone: 0
-        pitchRatio: 1
-        delay: 0
-        increase2D: 0
-        intensity: 1
-        reverbZoneMixDecibel: 0
-        reverbZoneMixRatio: 1
-        startPosition: 0
-        reverse: 0
-        stereoPan: 0
-        polyphony: 1
-        distanceScale: 1
-        distortionIncrease: 0
-        fadeInLength: 0
-        fadeInShape: 2
-        fadeOutLength: 0
-        fadeOutShape: -2
-        followPosition: 1
-        bypassReverbZones: 0
-        bypassVoiceEffects: 0
-        bypassListenerEffects: 0
-        volumeUse: 0
-        pitchUse: 0
-        delayUse: 0
-        increase2DUse: 0
-        intensityUse: 0
-        reverbZoneMixUse: 0
-        startPositionUse: 0
-        reverseUse: 0
-        stereoPanUse: 0
-        polyphonyUse: 0
-        distanceScaleUse: 0
-        distortionIncreaseUse: 0
-        fadeInLengthUse: 0
-        fadeInShapeUse: 0
-        fadeOutLengthUse: 0
-        fadeOutShapeUse: 0
-        followPositionUse: 0
-        bypassReverbZonesUse: 0
-        bypassVoiceEffectsUse: 0
-        bypassListenerEffectsUse: 0
-      expandModifier: 1
-      soundTriggerTodo:
-        onEnableUse: 1
-        onDisableUse: 0
-        onStartUse: 0
-        onDestroyUse: 0
-        onTriggerEnterUse: 0
-        onTriggerExitUse: 0
-        onTriggerEnter2DUse: 0
-        onTriggerExit2DUse: 0
-        onCollisionEnterUse: 0
-        onCollisionExitUse: 0
-        onCollisionEnter2DUse: 0
-        onCollisionExit2DUse: 0
-        onMouseEnterUse: 0
-        onMouseExitUse: 0
-        onMouseDownUse: 0
-        onMouseUpUse: 0
-        onEnableAction: 0
-        onDisableAction: 1
-        onStartAction: 0
-        onDestroyAction: 1
-        onTriggerEnterAction: 0
-        onTriggerExitAction: 1
-        onTriggerEnter2DAction: 0
-        onTriggerExit2DAction: 1
-        onCollisionEnterAction: 0
-        onCollisionExitAction: 1
-        onCollisionEnter2DAction: 0
-        onCollisionExit2DAction: 1
-        onMouseEnterAction: 0
-        onMouseExitAction: 1
-        onMouseDownAction: 0
-        onMouseUpAction: 1
-      expandTrigger: 1
-      triggerTagUse: 0
-      triggerTags:
-      - Untagged
-      collisionVelocityToIntensity: 0
-      collisionTagUse: 0
-      collisionTags:
-      - Untagged
-    soundParameterDistanceScale:
-      internals:
-        type: 10
-        updateMode: 1
-        valueFloat: 1
-        valueInt: 0
-        valueBool: 0
 --- !u!1 &1303863223
 GameObject:
   m_ObjectHideFlags: 0
@@ -5301,9 +4835,9 @@ RectTransform:
   - {fileID: 234458714}
   m_Father: {fileID: 819641928}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 14, y: -14}
   m_SizeDelta: {x: 28, y: 28}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1337565496
@@ -7087,12 +6621,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1662119008}
   m_CullTransparentMesh: 0
---- !u!4 &1666527825 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 5579768259981768397, guid: c4326a676d37e3e4182c12085a59b291,
-    type: 3}
-  m_PrefabInstance: {fileID: 783235355}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1717274365
 GameObject:
   m_ObjectHideFlags: 0
@@ -7309,148 +6837,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 502088009782761171}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1856243501
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1856243502}
-  - component: {fileID: 1856243503}
-  m_Layer: 0
-  m_Name: SND_Touch
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1856243502
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1856243501}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.414173, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 701316256}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1856243503
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1856243501}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d65c3a80a1a35884b9a0bf632cd09354, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  internals:
-    soundEventsExpand: 1
-    soundTriggerPart:
-    - expandSoundEvent: 1
-      soundEvent: {fileID: 11400000, guid: d7555322676ebc14facade069215208c, type: 2}
-      soundEventModifier:
-        volumeDecibel: 0
-        volumeRatio: 1
-        pitchSemitone: 0
-        pitchRatio: 1
-        delay: 0
-        increase2D: 0
-        intensity: 1
-        reverbZoneMixDecibel: 0
-        reverbZoneMixRatio: 1
-        startPosition: 0
-        reverse: 0
-        stereoPan: 0
-        polyphony: 1
-        distanceScale: 1
-        distortionIncrease: 0
-        fadeInLength: 0
-        fadeInShape: 2
-        fadeOutLength: 0
-        fadeOutShape: -2
-        followPosition: 1
-        bypassReverbZones: 0
-        bypassVoiceEffects: 0
-        bypassListenerEffects: 0
-        volumeUse: 0
-        pitchUse: 0
-        delayUse: 0
-        increase2DUse: 0
-        intensityUse: 0
-        reverbZoneMixUse: 0
-        startPositionUse: 0
-        reverseUse: 0
-        stereoPanUse: 0
-        polyphonyUse: 0
-        distanceScaleUse: 0
-        distortionIncreaseUse: 0
-        fadeInLengthUse: 0
-        fadeInShapeUse: 0
-        fadeOutLengthUse: 0
-        fadeOutShapeUse: 0
-        followPositionUse: 0
-        bypassReverbZonesUse: 0
-        bypassVoiceEffectsUse: 0
-        bypassListenerEffectsUse: 0
-      expandModifier: 1
-      soundTriggerTodo:
-        onEnableUse: 1
-        onDisableUse: 0
-        onStartUse: 0
-        onDestroyUse: 0
-        onTriggerEnterUse: 0
-        onTriggerExitUse: 0
-        onTriggerEnter2DUse: 0
-        onTriggerExit2DUse: 0
-        onCollisionEnterUse: 0
-        onCollisionExitUse: 0
-        onCollisionEnter2DUse: 0
-        onCollisionExit2DUse: 0
-        onMouseEnterUse: 0
-        onMouseExitUse: 0
-        onMouseDownUse: 0
-        onMouseUpUse: 0
-        onEnableAction: 0
-        onDisableAction: 1
-        onStartAction: 0
-        onDestroyAction: 1
-        onTriggerEnterAction: 0
-        onTriggerExitAction: 1
-        onTriggerEnter2DAction: 0
-        onTriggerExit2DAction: 1
-        onCollisionEnterAction: 0
-        onCollisionExitAction: 1
-        onCollisionEnter2DAction: 0
-        onCollisionExit2DAction: 1
-        onMouseEnterAction: 0
-        onMouseExitAction: 1
-        onMouseDownAction: 0
-        onMouseUpAction: 1
-      expandTrigger: 1
-      triggerTagUse: 0
-      triggerTags:
-      - Untagged
-      collisionVelocityToIntensity: 0
-      collisionTagUse: 0
-      collisionTags:
-      - Untagged
-    soundParameterDistanceScale:
-      internals:
-        type: 10
-        updateMode: 1
-        valueFloat: 1
-        valueInt: 0
-        valueBool: 0
 --- !u!1 &1917631373
 GameObject:
   m_ObjectHideFlags: 0
@@ -7526,12 +6912,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1917631373}
   m_CullTransparentMesh: 0
---- !u!4 &1947870896 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 5579768259981768397, guid: c4326a676d37e3e4182c12085a59b291,
-    type: 3}
-  m_PrefabInstance: {fileID: 5142246586145856557}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1950328383
 GameObject:
   m_ObjectHideFlags: 0
@@ -7971,11 +7351,6 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3114070848011914927, guid: c4326a676d37e3e4182c12085a59b291,
         type: 3}
-      propertyPath: m_RootOrder
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 3114070848011914927, guid: c4326a676d37e3e4182c12085a59b291,
-        type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.26
       objectReference: {fileID: 0}
@@ -8024,11 +7399,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5044912443828389941, guid: c4326a676d37e3e4182c12085a59b291,
-        type: 3}
-      propertyPath: m_Materials.Array.size
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7456631888709361061, guid: c4326a676d37e3e4182c12085a59b291,
         type: 3}
       propertyPath: m_Name
@@ -8036,11 +7406,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects:
-    - targetCorrespondingSourceObject: {fileID: 5579768259981768397, guid: c4326a676d37e3e4182c12085a59b291,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1856243502}
+    m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c4326a676d37e3e4182c12085a59b291, type: 3}
 --- !u!4 &2067776026 stripped
@@ -9103,11 +8469,6 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3114070848011914927, guid: c4326a676d37e3e4182c12085a59b291,
         type: 3}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3114070848011914927, guid: c4326a676d37e3e4182c12085a59b291,
-        type: 3}
       propertyPath: m_LocalPosition.x
       value: -2.24
       objectReference: {fileID: 0}
@@ -9156,11 +8517,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5044912443828389941, guid: c4326a676d37e3e4182c12085a59b291,
-        type: 3}
-      propertyPath: m_Materials.Array.size
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7456631888709361061, guid: c4326a676d37e3e4182c12085a59b291,
         type: 3}
       propertyPath: m_Name
@@ -9168,11 +8524,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects:
-    - targetCorrespondingSourceObject: {fileID: 5579768259981768397, guid: c4326a676d37e3e4182c12085a59b291,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 801530112}
+    m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c4326a676d37e3e4182c12085a59b291, type: 3}
 --- !u!4 &5142246586145856558 stripped
