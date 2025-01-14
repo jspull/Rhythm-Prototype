@@ -17,12 +17,12 @@ MonoBehaviour:
   author: 
   bpm: 140
   speedModifier: 1
-  customMidiMapping: {fileID: 11400000, guid: c2e839ca7db46044bbb2bb3bd1bda761, type: 2}
+  customMidiMapping: {fileID: 11400000, guid: e50704eb54ce9c34fa07d3f1c5d49f27, type: 2}
   customPrefabMapping: {fileID: 11400000, guid: a368997de14f3ba4e8d6f8808c0cd065,
     type: 2}
   metadata:
     values: []
-  useCurrentBpmMidiImport: 1
+  useCurrentBpmMidiImport: 0
   notes:
   - noteName: 0
     noteOctave: 4

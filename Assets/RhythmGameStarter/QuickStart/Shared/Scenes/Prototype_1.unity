@@ -203,10 +203,8 @@ MonoBehaviour:
     type: 3}
   songItems:
     values:
-    - {fileID: 11400000, guid: 9fc4c0a8e6619a540bc0d7de971d3df7, type: 2}
-    - {fileID: 11400000, guid: 52077f020e20a7147bdeea600750293e, type: 2}
-    - {fileID: 11400000, guid: 55e75ed5e7f253b4080948c6dba8ad8b, type: 2}
-    - {fileID: 11400000, guid: 504a620ec0a1cd54d8f9dea264ef69fa, type: 2}
+    - {fileID: 11400000, guid: 6dd1fe7e76aabd74b8282a0888bd7449, type: 2}
+    - {fileID: 11400000, guid: 4d1253f484ab02d4c997f2dafd9c6fbc, type: 2}
   onItemSelect:
     m_PersistentCalls:
       m_Calls:
@@ -7789,7 +7787,8 @@ PrefabInstance:
         type: 3}
       propertyPath: notePrefabMapping
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 11400000, guid: dbf2927d18abb3541909bb3eb1ae9f8b,
+        type: 2}
     - target: {fileID: 2812891354770858997, guid: fe644e17ab53a314f926aa81d877b247,
         type: 3}
       propertyPath: poolLookAheadTime
@@ -8129,7 +8128,7 @@ PrefabInstance:
         type: 3}
       propertyPath: defaultSong
       value: 
-      objectReference: {fileID: 11400000, guid: 52077f020e20a7147bdeea600750293e,
+      objectReference: {fileID: 11400000, guid: 9fc4c0a8e6619a540bc0d7de971d3df7,
         type: 2}
     - target: {fileID: 6570265792833841976, guid: fe644e17ab53a314f926aa81d877b247,
         type: 3}
