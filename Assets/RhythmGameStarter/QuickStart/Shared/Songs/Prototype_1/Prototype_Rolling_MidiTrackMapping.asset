@@ -17,9 +17,9 @@ MonoBehaviour:
   mapping:
   - noteTarget: 0
     noteOctave: 0
+  - noteTarget: 2
+    noteOctave: 0
   - noteTarget: 4
     noteOctave: 0
   - noteTarget: 5
-    noteOctave: 0
-  - noteTarget: 2
     noteOctave: 0
