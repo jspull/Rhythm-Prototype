@@ -28,6 +28,9 @@ MonoBehaviour:
   - prefab: {fileID: 7212494586997379943, guid: 05b7fa9af53b79447975c95b2669a552,
       type: 3}
     poolSize: 6
+  - prefab: {fileID: 8397699897526961635, guid: a0be44f5e541ea847b6821ee4e6b0156,
+      type: 3}
+    poolSize: 6
   mapping:
   - notePrefabIndex: 1
     noteName: 0
@@ -38,3 +41,6 @@ MonoBehaviour:
   - notePrefabIndex: 2
     noteName: 0
     noteOctave: 6
+  - notePrefabIndex: 4
+    noteName: 0
+    noteOctave: 7
