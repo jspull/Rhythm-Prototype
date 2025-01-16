@@ -528,7 +528,7 @@ PrefabInstance:
     - target: {fileID: 2001564993610546600, guid: 7154c23226c46db4fb20a90aa1652bc2,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 111.01
+      value: 150.1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -743,7 +743,7 @@ PrefabInstance:
     - target: {fileID: 2001564992722883296, guid: 7154c23226c46db4fb20a90aa1652bc2,
         type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2001564992722883296, guid: 7154c23226c46db4fb20a90aa1652bc2,
         type: 3}
@@ -763,7 +763,7 @@ PrefabInstance:
     - target: {fileID: 2001564992722883296, guid: 7154c23226c46db4fb20a90aa1652bc2,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: 
+      value: Prototype_3
       objectReference: {fileID: 0}
     - target: {fileID: 2001564992722883296, guid: 7154c23226c46db4fb20a90aa1652bc2,
         type: 3}
@@ -883,7 +883,7 @@ PrefabInstance:
     - target: {fileID: 2001564992722883302, guid: 7154c23226c46db4fb20a90aa1652bc2,
         type: 3}
       propertyPath: m_text
-      value: ////Test////
+      value: HyperCasual Mode
       objectReference: {fileID: 0}
     - target: {fileID: 2001564992722883302, guid: 7154c23226c46db4fb20a90aa1652bc2,
         type: 3}
@@ -1828,7 +1828,7 @@ PrefabInstance:
     - target: {fileID: 2001564992722883296, guid: 7154c23226c46db4fb20a90aa1652bc2,
         type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2001564992722883296, guid: 7154c23226c46db4fb20a90aa1652bc2,
         type: 3}
@@ -1848,7 +1848,7 @@ PrefabInstance:
     - target: {fileID: 2001564992722883296, guid: 7154c23226c46db4fb20a90aa1652bc2,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: 
+      value: Prototype_2
       objectReference: {fileID: 0}
     - target: {fileID: 2001564992722883296, guid: 7154c23226c46db4fb20a90aa1652bc2,
         type: 3}
