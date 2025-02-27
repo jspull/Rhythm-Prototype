@@ -5210,7 +5210,7 @@ MonoBehaviour:
   action: 0
   swipeDirection: 0
   swipeThreshold: 0.5
-  killAnim: {fileID: 7400000, guid: 9422fa2e8c3d0ba4ca89db5c66f1c421, type: 2}
+  killAnim: {fileID: 7400000, guid: 6f59285596ff71b44b947010e5d4c9f0, type: 2}
   noTapEffect: 0
   hitSound: {fileID: 8300000, guid: 35f30d3d4ae84a04eb872b54f596b528, type: 3}
   noHitSound: 0
