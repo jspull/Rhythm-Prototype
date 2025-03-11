@@ -5297,7 +5297,7 @@ MonoBehaviour:
   swipeThreshold: 0.5
   killAnim: {fileID: 7400000, guid: 6f59285596ff71b44b947010e5d4c9f0, type: 2}
   noTapEffect: 0
-  hitSound: {fileID: 8300000, guid: 35f30d3d4ae84a04eb872b54f596b528, type: 3}
+  hitSound: {fileID: 8300000, guid: 194796e165f258d4bb816775f2aa40b7, type: 3}
   noHitSound: 0
   applyNoteLenghtTarget: {fileID: 0}
   noteLengthSizeOffset: 0
